@@ -55,7 +55,7 @@ Check status:
 curl http://localhost:7860/reset
 ```
 
-### Inference Tests 
+### Inference Tests
 
 Ensure your `$OPENAI_API_KEY`, `$MODEL_NAME`, and `$API_BASE_URL` are strictly exported inside your native local paths or environment container securely executing:
 
