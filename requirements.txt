@@ -5,4 +5,3 @@ openai
 fastapi
 uvicorn
 huggingface_hub
-openenv-core>=0.2.0
