@@ -6,7 +6,7 @@ from env.models import ActionModel, ActionType
 
 client = OpenAI(
     base_url=os.environ.get("API_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/"),
-    api_key=os.environ.get("OPENAI_API_KEY", "")
+    api_key=os.environ.get("OPENAI_API_KEY", os.environ.get("HF_TOKEN", ""))
 )
 
 MODEL = os.environ.get("MODEL_NAME", "gemini-2.5-flash")

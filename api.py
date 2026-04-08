@@ -13,6 +13,7 @@ def root():
     }
 
 @app.get("/reset")
+@app.post("/reset")
 def reset():
     obs = env.reset()
     return obs.model_dump()
